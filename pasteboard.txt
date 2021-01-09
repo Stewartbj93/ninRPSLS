@@ -1,0 +1,166 @@
+case 'Rock':
+if(compChoice == 'Paper'){
+rightScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+}
+else if(compChoice == 'Scissors'){
+
+}
+else if(compChoice == ){
+    
+}
+else if(compChoice == ){
+    
+}
+else{console.log('We appear to have a tie...');}
+
+//rock
+switch(compChoice){
+    case 'Paper':
+            rightScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+    case 'Scissors':
+            leftScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+    case 'Lizard':
+            leftScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+    case 'Spock':
+            rightScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+    default:
+            console.log('We appear to have a tie...');
+            break;
+        
+} break;
+//paper
+switch(compChoice){
+case 'Rock':
+            leftScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+case    'Scissors':
+            rightScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+case    'Lizard':
+            rightScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+ case   'Spock':
+            leftScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+      default:
+            console.log('We appear to have a tie...');
+            break;
+} break;
+
+//scissorCases
+switch(compChoice){
+    case 'Rock':
+            rightScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+    case 'Paper':
+            leftScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+    case 'Lizard':
+            leftScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+    case 'Spock':
+            rightScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+     default:
+            console.log('We appear to have a tie...');
+            break;       
+}break; 
+
+//lizardCases
+switch(compChoice){
+case 'Rock':
+            rightScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+   case  'Paper':
+            leftScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+    case 'Scissors':
+            leftScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+   case 'Spock':
+            rightScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+default:
+            console.log('We appear to have a tie...');
+            break;
+}break;
+
+//spockCases
+switch(compChoice){
+case 'Rock':
+            rightScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+    case 'Paper':
+            leftScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+    case 'Scissors':
+            leftScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+    case 'Lizard':
+            rightScore++;
+            console.log(leftScore + '  VS  ' + rightScore);
+            break;
+    default:
+            console.log('We appear to have a tie...');
+            break;
+}break; 
+
+
+let win4 = document.getElementById("win4").addEventListener("click", () => {
+    winCon =4;
+});
+
+
+
+
+Point to Player 1!
+
+Point to Player 2!
+
+displayResult.innerText = "Paper covers Rock,";
+
+displayResult.innerText = "Rock crushes Scissors,";
+
+displayResult.innerText = "Rock crushes Lizard";
+
+displayResult.innerText = "Spock vaporizes Rock,";
+
+displayResult.innerText = "Paper Disproves Spock,";
+
+displayResult.innerText = "Scissors cuts Paper,";
+
+displayResult.innerText = "Lizard Eats Paper,";
+
+displayResult.innerText = "Scissors DECAPITATE Lizard,";
+
+displayResult.innerText = "Spock smashes Scissors,";
+
+displayResult.innerText = "Lizard Poisons Spock,";
+
+
+
+displayResult.innerText = 'We appear to have a tie...';

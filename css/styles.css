@@ -1,0 +1,90 @@
+.dingus{
+    color: orange;
+}
+
+.curvy{
+    display:flex;
+    justify-content: flex-end;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.playBestOfBtns{
+    border: solid;
+    border-color: black;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.centerMe{
+  
+  display: flex;
+  justify-content: center;
+}
+
+/* html{
+  height: 100%;
+}
+body{
+  height: 100%;
+} */
+.fillScreen{
+    position: fixed;
+    bottom: 0px;
+}
+body{
+    background-color: wheat;
+    border-style: solid;
+    border-color: red;
+    border-width: 15px;
+    max-height: 595px;
+    
+}
+
+
+.videogameBG{
+    background-color: silver;
+    border-radius:10px;
+}
+
+.rpslsBtns{
+font-size: 30px;
+display: flex;
+justify-content:baseline;
+border:solid;
+border-color: black;
+border-radius:10px;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    font-size:40px;
+    font-family: 'marioBrosFont';
+}
+.nextBtn{
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+@font-face{
+    font-family: 'marioBrosFont';
+    src: url(../fonts/super-plumber-brothers-font.zip);
+    font-style: normal;
+    font-weight: 100;
+}
+.marioBrosFont{
+    font-family: 'marioBrosFont';
+}
+.playBestOf{
+    font-size: 30px;
+}
+.nintendoLogo{
+    display: flex;
+    align-items: flex-start;
+}
+/* The above is compliments of the collaborative works of Leo Manzo */
+.adjustBorders{
+    margin: none;
+        
+    max-height: 420;
+}
